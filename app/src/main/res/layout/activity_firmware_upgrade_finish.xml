@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".view.activity.firmware.FirmwareUpgradeFinishActivity">
+
+    <TextView
+        android:id="@+id/title_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_35dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="@string/tws_pairing"
+        android:textColor="@color/colorGrey1B"
+        android:textSize="@dimen/_15sp" />
+
+    <ImageView
+        android:id="@+id/iv_instructions_anim"
+        android:layout_width="@dimen/_360dp"
+        android:layout_height="@dimen/_190dp"
+        android:layout_below="@+id/title_lay"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/anim_fwu_tws_pairing" />
+
+
+    <TextView
+        android:id="@+id/tv_instructions_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35dp"
+        android:layout_below="@+id/iv_instructions_anim"
+        android:background="@color/colorGreyED"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_20dp"
+        android:paddingEnd="@dimen/_20dp"
+        android:text="@string/please_follow_the_steps"
+        android:textColor="@color/colorGrey43"
+        android:textSize="@dimen/_13sp" />
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:layout_below="@+id/tv_instructions_title"
+        android:layout_marginBottom="@dimen/_9dp"
+        android:background="@color/colorGreyD2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_close"
+        android:layout_below="@+id/divider_line">
+
+        <TextView
+            android:id="@+id/tv_instructions_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginEnd="@dimen/_20dp"
+            android:paddingBottom="@dimen/_9dp"
+            android:text="@string/tws_pairing_instructions"
+            android:textColor="@color/colorGrey43"
+            android:textSize="@dimen/_13sp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:gravity="center"
+        android:onClick="onCloseClick"
+        android:padding="@dimen/_18dp"
+        android:text="@string/close"
+        android:textColor="@color/text_color_close"
+        android:textSize="@dimen/_20sp" />
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".view.activity.download.DownloadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_188dp"
+            android:layout_height="@dimen/_146dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_3dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/star_icon_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_8dp"
+            android:text="@string/download_progress"
+            android:textColor="@color/colorGrey1B"
+            android:textSize="@dimen/_18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="@dimen/_84dp"
+            android:layout_height="@dimen/_84dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_32dp"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/self_rotation_progress"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_9dp"
+            android:textColor="@color/colorGrey43"
+            android:textSize="@dimen/_30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:gravity="center"
+        android:onClick="onCloseClick"
+        android:padding="@dimen/_18dp"
+        android:text="@string/close"
+        android:textColor="@color/text_color_close"
+        android:textSize="@dimen/_20sp" />
+</FrameLayout>

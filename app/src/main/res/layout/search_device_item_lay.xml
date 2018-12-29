@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_39dp"
+    android:descendantFocusability="beforeDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_39dp"
+        android:background="@drawable/item_bg">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2dp"
+            android:layout_marginTop="@dimen/_7dp"
+            android:textColor="@color/colorGrey62"
+            android:textSize="@dimen/_13sp" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginStart="@dimen/_2dp"
+            android:layout_marginTop="@dimen/_3dp"
+            android:textColor="@color/colorGrey62"
+            android:textSize="@dimen/_8sp" />
+
+        <ImageView
+            android:id="@+id/iv_config"
+            android:layout_width="@dimen/_39dp"
+            android:layout_height="@dimen/_39dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_9dp"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/_6dp"
+            android:src="@drawable/ic_config" />
+
+        <ImageView
+            android:id="@+id/iv_connecting"
+            android:layout_width="@dimen/_18dp"
+            android:layout_height="@dimen/_18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_21dp"
+            android:layout_toStartOf="@id/iv_config"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_pairing" />
+
+        <ImageView
+            android:id="@+id/iv_pairing"
+            android:layout_width="@dimen/_18dp"
+            android:layout_height="@dimen/_18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_pairing" />
+    </RelativeLayout>
+</FrameLayout>

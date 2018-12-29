@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTrans29">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="@dimen/_292dp"
+        android:layout_height="@dimen/_184dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/rename_bg"
+        android:text="@string/checking_version" />
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="@dimen/_138dp"
+        android:layout_height="@dimen/_93dp"
+        android:background="@mipmap/more_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_version"
+            style="@style/MoreItemStyle"
+            android:layout_marginTop="@dimen/_4dp"
+            android:text="@string/star_version" />
+
+        <TextView
+            android:id="@+id/tv_firmware_upgrade"
+            style="@style/MoreItemStyle"
+            android:text="@string/firmware_upgrade" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            style="@style/MoreItemStyle"
+            android:text="@string/about_this_app" />
+    </LinearLayout>
+</FrameLayout>

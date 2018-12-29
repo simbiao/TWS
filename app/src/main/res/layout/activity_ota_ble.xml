@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".view.activity.firmware.BleOtaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_next_step"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_188dp"
+            android:layout_height="@dimen/_146dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_3dp"
+            android:layout_marginBottom="@dimen/_35dp"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/star_icon_2" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="@dimen/_78dp"
+            android:layout_height="@dimen/_78dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_18dp"
+            android:layout_marginBottom="@dimen/_12dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="onSearchClick"
+            android:src="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/tv_search_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_19dp"
+            android:text="@string/ota_searching"
+            android:textColor="@color/colorGrey1B"
+            android:textSize="@dimen/_15sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/upgrade_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_35dp"
+            android:layout_marginEnd="@dimen/_35dp"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/tv_upgrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onUpgradeClick"
+                android:paddingBottom="@dimen/_27dp"
+                android:text="@string/ota_upgrade"
+                android:textColor="@color/text_color_upgrade"
+                android:textSize="@dimen/_12sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_upgrade_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_6dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/horizontal_progress" />
+
+            <TextView
+                android:id="@+id/tv_upgrade_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12dp"
+                android:layout_marginBottom="@dimen/_33dp"
+                android:gravity="center"
+                android:text="@string/ota_upgrade_connecting"
+                android:textColor="@color/colorGrey43"
+                android:textSize="@dimen/_18sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_upgrade_statistic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ota_upgrade_statistic"
+                android:textColor="@color/colorGrey43"
+                android:textSize="@dimen/_18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_next_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:gravity="center"
+        android:onClick="onNextStepClick"
+        android:padding="@dimen/_18dp"
+        android:text="@string/next_step"
+        android:textColor="@color/text_color_close"
+        android:textSize="@dimen/_20sp" />
+</RelativeLayout>

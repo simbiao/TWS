@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTrans29">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_34dp"
+        android:background="@drawable/rename_bg">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_17dp"
+            android:text="@string/new_version_info"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_24sp" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16dp"
+            android:textColor="@color/colorGrey43"
+            android:textSize="@dimen/_18sp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_version"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_7dp"
+            android:layout_marginEnd="@dimen/_24dp"
+            android:layout_marginBottom="@dimen/_12dp"
+            android:hint="@string/rename_hint"
+            android:lineSpacingExtra="@dimen/_4dp"
+            android:maxHeight="@dimen/_257dp"
+            android:padding="@dimen/_5dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/colorGrey43"
+            android:textColorHint="@color/colorTrans29"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:id="@+id/divider_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1dp"
+            android:layout_below="@+id/tv_content"
+            android:background="@color/colorGrey8C" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43dp"
+            android:layout_below="@+id/divider_line">
+
+            <View
+                android:id="@+id/divider_block"
+                android:layout_width="@dimen/_1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@color/colorGrey8C" />
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/divider_block"
+                android:background="@drawable/rename_button_bg_left"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/text_color_cancel"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/divider_block"
+                android:background="@drawable/rename_button_bg_right"
+                android:gravity="center"
+                android:text="@string/confirm"
+                android:textColor="@color/text_color_rename"
+                android:textSize="@dimen/_18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".view.activity.start.GuideActivity">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/_168dp"
+        android:layout_height="@dimen/_114dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_18dp"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/quick_guide_star_icon" />
+
+
+    <ImageView
+        android:id="@+id/tv_quick_guide"
+        android:layout_width="@dimen/_140dp"
+        android:layout_height="@dimen/_26dp"
+        android:layout_below="@id/iv_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_6dp"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/quick_guide_icon" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_dot"
+        android:layout_below="@+id/tv_quick_guide"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/ll_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8dp"
+        android:layout_marginBottom="@dimen/_23dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_16dp"
+        android:background="@drawable/ic_button_bg"
+        android:gravity="center"
+        android:onClick="onCloseClick"
+        android:text="@string/close"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_18sp" />
+</RelativeLayout>

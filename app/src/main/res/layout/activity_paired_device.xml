@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".view.activity.bluetooth.PairedDeviceActivity">
+
+    <RelativeLayout
+        android:id="@+id/title_lay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_41dp">
+
+        <ImageView
+            android:layout_width="@dimen/_41dp"
+            android:layout_height="@dimen/_41dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="onBackClick"
+            android:padding="@dimen/_8dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/paired_devices"
+            android:textColor="@color/colorGrey1B"
+            android:textSize="@dimen/_18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_lay"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_05dp"
+            android:background="@color/colorGreyD2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38dp"
+            android:background="@drawable/item_bg"
+            android:onClick="onRenameClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_14dp"
+                android:text="@string/rename"
+                android:textColor="@color/colorGrey53"
+                android:textSize="@dimen/_15sp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_42dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_4dp"
+            android:background="@color/colorGreyEE" />
+
+        <RelativeLayout
+            android:id="@+id/audio_lay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38dp"
+            android:background="@drawable/paired_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_audio"
+                android:layout_width="@dimen/_17dp"
+                android:layout_height="@dimen/_23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12dp"
+                android:layout_marginEnd="@dimen/_12dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_audio" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_audio"
+                android:text="@string/audio_call"
+                android:textColor="@color/colorGrey43"
+                android:textSize="@dimen/_15sp" />
+
+
+            <Switch
+                android:id="@+id/switch_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_18dp"
+                android:thumb="@mipmap/switch_block"
+                android:track="@mipmap/switch_bg_off" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_05dp"
+            android:layout_marginStart="@dimen/_40dp"
+            android:background="@color/colorGreyD2" />
+
+
+        <RelativeLayout
+            android:id="@+id/media_lay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38dp"
+            android:background="@drawable/paired_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_media"
+                android:layout_width="@dimen/_17dp"
+                android:layout_height="@dimen/_23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12dp"
+                android:layout_marginEnd="@dimen/_12dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_audio" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_media"
+                android:text="@string/media_audio"
+                android:textColor="@color/colorGrey43"
+                android:textSize="@dimen/_15sp" />
+
+            <Switch
+                android:id="@+id/switch_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_18dp"
+                android:thumb="@mipmap/switch_block"
+                android:track="@mipmap/switch_bg_off" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_05dp"
+            android:background="@color/colorGreyD2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_cancel_paired"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_16dp"
+        android:background="@drawable/ic_button_bg"
+        android:gravity="center"
+        android:onClick="onCancelPairedClick"
+        android:text="@string/cancel_paired"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_18sp" />
+</RelativeLayout>

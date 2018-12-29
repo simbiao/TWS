@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@mipmap/search_ready_connect_01"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_02"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_03"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_04"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_05"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_06"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_07"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_08"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_09"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_10"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_11"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_12"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_13"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_14"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_15"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/search_ready_connect_16"
+        android:duration="100" />
+</animation-list>

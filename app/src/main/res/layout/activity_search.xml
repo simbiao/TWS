@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".view.activity.bluetooth.SearchActivity">
+
+    <ImageView
+        android:id="@+id/iv_connecting_anim"
+        android:layout_width="@dimen/_197dp"
+        android:layout_height="@dimen/_111dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_31dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/anim_connect" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:layout_marginTop="@dimen/_64dp"
+        android:background="@color/colorGreyD2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35dp"
+        android:background="@color/colorGreyED"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_20dp"
+        android:paddingEnd="@dimen/_20dp"
+        android:text="@string/paired_devices"
+        android:textAllCaps="true"
+        android:textColor="@color/colorGrey43"
+        android:textSize="@dimen/_13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/colorGreyD2" />
+
+    <ListView
+        android:id="@+id/lv_paired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_17dp"
+        android:divider="@color/colorGreyE5"
+        android:dividerHeight="@dimen/_1dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:layout_marginTop="@dimen/_2dp"
+        android:background="@color/colorGreyD2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35dp"
+        android:background="@color/colorGreyED"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_20dp"
+        android:paddingEnd="@dimen/_20dp"
+        android:text="@string/available_devices"
+        android:textAllCaps="true"
+        android:textColor="@color/colorGrey43"
+        android:textSize="@dimen/_13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/colorGreyD2" />
+
+    <ListView
+        android:id="@+id/lv_unpaired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_17dp"
+        android:divider="@color/colorGreyE5"
+        android:dividerHeight="@dimen/_1dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/colorGreyD2" />
+</LinearLayout>

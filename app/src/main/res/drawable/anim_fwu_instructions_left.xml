@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_01"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_02"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_03"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_04"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_05"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_06"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_07"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_08"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_09"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_10"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_11"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_12"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_13"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_14"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_15"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_16"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_17"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_18"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_19"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_20"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_21"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_22"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_23"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_24"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_25"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_26"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_27"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_28"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_29"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_30"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_31"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_32"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_33"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_34"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_35"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_36"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_37"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_38"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_39"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_40"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_41"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_42"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_43"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_44"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_45"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_46"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_47"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_48"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_49"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_50"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_51"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_52"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_53"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_54"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_55"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_56"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_57"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_58"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_59"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_60"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_61"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_62"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_63"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_64"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_65"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_66"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_67"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_68"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_69"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_70"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_71"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_72"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_73"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_74"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_75"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_76"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_77"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_78"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_79"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_80"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_81"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_82"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_83"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_84"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_85"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_86"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_87"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_88"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_89"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_90"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_91"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_92"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_93"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_94"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_95"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_96"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_97"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_98"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/fwu_instructions_left_99"
+        android:duration="100" />
+</animation-list>

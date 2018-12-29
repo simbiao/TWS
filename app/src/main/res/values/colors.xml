@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorBlue26">#2680FF</color>
+    <color name="colorBlue69">#69A9E3</color>
+    <color name="colorBlue6982">#6982E6</color>
+    <color name="colorBlue69AD">#69ADE3</color>
+    <color name="colorBlue6A">#6ACBE0</color>
+    <color name="colorTrans">#00000000</color>
+    <color name="colorTrans29">#29000000</color>
+    <color name="colorTrans2F">#2F000000</color>
+    <color name="colorGrey1B">#1B1B1B</color>
+    <color name="colorGrey1E">#1E1E1E</color>
+    <color name="colorGrey3">#333333</color>
+    <color name="colorGrey53">#535353</color>
+    <color name="colorGrey6">#666666</color>
+    <color name="colorGrey43">#434343</color>
+    <color name="colorGrey62">#626262</color>
+    <color name="colorGrey8C">#8C8C8C</color>
+    <color name="colorGreyB8">#B8B8B8</color>
+    <color name="colorGreyBF">#BFBFBF</color>
+    <color name="colorGreyCA">#CACACA</color>
+    <color name="colorGreyD2">#D2D2D2</color>
+    <color name="colorGreyDA">#DADADA</color>
+    <color name="colorGreyE5">#E5E5E5</color>
+    <color name="colorGreyED">#EDEDED</color>
+    <color name="colorGreyEE">#EEEEEE</color>
+</resources>

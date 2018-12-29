@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".view.activity.bluetooth.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/app_name"
+                android:textColor="@color/colorGrey1E"
+                android:textSize="@dimen/_18sp" />
+
+            <ImageView
+                android:id="@+id/iv_more"
+                android:layout_width="@dimen/_35dp"
+                android:layout_height="@dimen/_35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_6dp"
+                android:contentDescription="@string/app_name"
+                android:onClick="onMoreClick"
+                android:padding="@dimen/_9dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_more" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_260dp"
+            android:layout_height="@dimen/_184dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/star_icon" />
+
+        <ImageView
+            android:id="@+id/iv_connection_state"
+            android:layout_width="@dimen/_210dp"
+            android:layout_height="@dimen/_81dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_connected_state" />
+
+        <TextView
+            android:id="@+id/tv_switch"
+            android:layout_width="@dimen/_200dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_12dp"
+            android:background="@drawable/ic_button_bg"
+            android:gravity="center"
+            android:onClick="onSwitchClick"
+            android:text="@string/switch_to_another_device"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_13sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/battery_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/star_battery_level"
+            android:textAllCaps="true" />
+
+        <ImageView
+            android:id="@+id/iv_battery_level"
+            android:layout_width="@dimen/_141dp"
+            android:layout_height="@dimen/_56dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_15dp"
+            android:background="@mipmap/battery_level_bg"
+            android:contentDescription="@string/app_name"
+            android:paddingStart="@dimen/_1dp"
+            android:paddingEnd="@dimen/_5dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tv_percentage_battery_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_12dp"
+            android:layout_marginBottom="@dimen/_48dp"
+            android:text="@string/percentage_reserved_charge" />
+    </LinearLayout>
+</FrameLayout>

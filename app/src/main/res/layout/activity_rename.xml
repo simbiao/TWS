@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.bluetooth.RenameActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/_35dp"
+        android:background="@drawable/rename_bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_19dp"
+            android:text="@string/rename"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_24sp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_38dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/rename_hint"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorTrans29"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:id="@+id/divider_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1dp"
+            android:layout_below="@+id/et_name"
+            android:layout_marginTop="@dimen/_50dp"
+            android:background="@color/colorGrey8C" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43dp"
+            android:layout_below="@+id/divider_line">
+
+            <View
+                android:id="@+id/divider_block"
+                android:layout_width="@dimen/_1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@color/colorGrey8C" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@+id/divider_block"
+                android:background="@drawable/rename_button_bg_left"
+                android:gravity="center"
+                android:onClick="onCancelClick"
+                android:text="@string/cancel"
+                android:textColor="@color/text_color_cancel"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/divider_block"
+                android:background="@drawable/rename_button_bg_right"
+                android:gravity="center"
+                android:onClick="onConfirmClick"
+                android:text="@string/confirm"
+                android:textColor="@color/text_color_rename"
+                android:textSize="@dimen/_18sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</FrameLayout>
